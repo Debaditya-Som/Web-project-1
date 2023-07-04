@@ -1,0 +1,209 @@
+header {
+    
+    background: linear-gradient(to right, #ebeff2, #687aee);
+    color: #494289;
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+    background: linear-gradient(to right, #ebeff2, #687aee);
+padding: 5px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    align-items: center ;
+    height:50px;
+     display: inline-block;
+    background: none;
+    color: #120899;
+    
+    transform: skewx(-10deg);
+
+
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: 0.25s;
+    border-radius: 1em;
+}
+
+.logo-container {
+    float: right;
+    display: flex;
+    align-items: center; /* Vertically center the logo and text */
+    margin-inline: 20px; /* Add some spacing between the logo and text */
+  }
+  
+  .logo {
+    width: 100px; /* Adjust the size of the logo as needed */
+    height: auto;
+    margin-right: 10px; /* Add some spacing between the logo and text */
+    vertical-align: middle; /* Align the logo vertically with the text */
+  }
+button:hover {
+     
+    border-color:#0019f5;
+    color: white;
+    box-shadow: 0 0.5em 0.5em #0019f5;
+    
+    transform : translateY(-0.25em);
+
+}
+
+nav li{
+    margin: 0 50px;
+}
+
+nav a{
+    border-width: 0.3;
+    color: #120899;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+   
+}
+
+
+
+div{
+   background: linear-gradient(to right, #ffffff,#8cd4eb95);
+}
+
+body {
+
+    font: 400 16px/1.3 Roboto,Trebuchet MS,Helvetica,Arial,sans-serif;
+    display : flex;
+justify-content : center;
+background-color: #f2f2f2;
+}
+
+nav{
+    background-color: #04436e8c;
+    padding: 5px;
+}
+
+section {
+    background-color: #fcf4f4;
+    padding: 20px;
+    margin: 20px 0;
+    transition: all 0.3s ease-in-out; 
+}
+
+section h2{
+    align-items: center;
+    justify-items: center;
+    color:rgb(30, 85, 174);
+    margin-bottom : 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+    display : block;
+    width: 50%;
+    padding:  10px;
+    margin-bottom: 20px;
+    border:none;
+    transition: all 0.3s ease-in-out;
+}
+
+form button {
+    display: block;
+    margin: 0 10px;
+    padding:20px 30px;
+    color: #120899;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+form button:hover {
+    background-color: #f4e9e98e;
+    border: 2px solid #030d9f;
+    border-color:#00c4f5;
+    color: #181063;
+    box-shadow: 0 0.5em 0.5em #86d9ee;
+    transform : translateY(-0.25em);
+}
+
+footer {
+
+    background: linear-gradient(to right, #ebeff2, #687aee);
+    color: #0c054a;
+    padding:10px;
+    text-align: center;
+    transition: all;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background:  #4d9edb6c;
+  }
+
+  td {
+    list-style-type: disc;
+  }
+
+  span {
+    display: grid ;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    margin-bottom: 50px;
+  }
+  
+ .bg{
+    background-color: white;
+ }
+
+  .school-row {
+    display: flex;
+    background-color: white;
+  }
+  
+  .school-name {
+    flex: 1;
+    background-color: white;
+  }
+  
+  .data-row {
+    display: flex;
+    background-color: white;
+  }
+  
+  .school-data {
+    flex: 1;
+    background-color: white;
+  }
+  
+  .college-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .college-name {
+    flex: 1;
+  }
+  
